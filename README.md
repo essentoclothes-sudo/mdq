@@ -1,4 +1,4 @@
-# mdq — query markdown tables in your shell
+# @josealbertomaquina/mdq — query markdown tables in your shell
 
 `grep` finds lines. `awk` chokes on markdown. **mdq** selects, filters and sorts markdown pipe tables — the format every README, `ledger.md` and GitHub doc already uses.
 
