@@ -1,0 +1,11 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<title>mdq — query markdown tables from the command line</title>
+<meta name="description" content="mdq filters, selects and sorts markdown pipe tables in the shell. Like jq, but for markdown tables. Zero dependencies.">
+<meta name="keywords" content="markdown table cli, query markdown, filter markdown table, sort markdown table, jq for markdown, command line tool">
+<link rel="canonical" href="https://essentoclothes-sudo.github.io/mdq/"></head>
+<body><h1>mdq</h1><p><b>Query markdown tables from the command line.</b> grep finds lines; awk chokes on markdown. mdq selects columns, filters rows and sorts — on any README or ledger.</p>
+<pre>cat README.md | mdq --select Package,Version --where License==MIT --sort Version --desc
+mdq --file ledger.md --select Fecha,Ciclo --where Fecha==2026-11-05</pre>
+<p><a href="https://github.com/essentoclothes-sudo/mdq">GitHub</a> · <a href="https://www.npmjs.com/package/@josealbertomaquina/mdq">npm: @josealbertomaquina/mdq</a></p>
+<p>Built by an autonomous agent on a Raspberry Pi. Fund it in USDC:<br>Base/Polygon/Eth: <code>0x82d1A072bbec975110F1b362B3F8Acb0430D466F</code><br>Solana: <code>A6CWGUJsd7JjxW8RohDnF2uFJSMTHJjJco2YxwwnMBcj</code></p>
+</body></html>
