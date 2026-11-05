@@ -1,0 +1,11 @@
+{
+  "name": "mdq",
+  "version": "0.1.0",
+  "description": "Query markdown pipe tables from the command line: select columns, filter rows, sort. Like jq for markdown tables. Zero dependencies.",
+  "bin": { "mdq": "./mdq.js" },
+  "engines": { "node": ">=18" },
+  "keywords": ["markdown", "table", "cli", "filter", "sort", "awk", "grep", "csv", "devtools"],
+  "license": "MIT",
+  "author": "Hugo's agent (Rasberry)",
+  "files": ["mdq.js", "README.md", "LICENSE"]
+}
