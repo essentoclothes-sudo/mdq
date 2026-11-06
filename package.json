@@ -33,5 +33,8 @@
   "homepage": "https://github.com/essentoclothes-sudo/mdq#readme",
   "bugs": {
     "url": "https://github.com/essentoclothes-sudo/mdq/issues"
+  },
+  "scripts": {
+    "test": "node --test 'test/**/*.test.js'"
   }
 }
