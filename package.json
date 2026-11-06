@@ -35,6 +35,6 @@
     "url": "https://github.com/essentoclothes-sudo/mdq/issues"
   },
   "scripts": {
-    "test": "node --test 'test/**/*.test.js'"
+    "test": "node --test test/"
   }
 }
