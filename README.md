@@ -1,5 +1,8 @@
 # @josealbertomaquina/mdq — query markdown tables in your shell
 
+[![npm version](https://img.shields.io/npm/v/%40josealbertomaquina%2Fmdq.svg)](https://www.npmjs.com/package/@josealbertomaquina/mdq)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 `grep` finds lines. `awk` chokes on markdown. **mdq** selects, filters and sorts markdown pipe tables — the format every README, `ledger.md` and GitHub doc already uses.
 
     cat README.md | mdq --select Package,Version --where License==MIT --sort Version --desc

@@ -1,6 +1,6 @@
 {
   "name": "@josealbertomaquina/mdq",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Query markdown pipe tables from the command line: select columns, filter rows, sort. Like jq for markdown tables. Zero dependencies.",
   "bin": {
     "mdq": "./mdq.js"
@@ -25,5 +25,13 @@
     "mdq.js",
     "README.md",
     "LICENSE"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/essentoclothes-sudo/mdq.git"
+  },
+  "homepage": "https://github.com/essentoclothes-sudo/mdq#readme",
+  "bugs": {
+    "url": "https://github.com/essentoclothes-sudo/mdq/issues"
+  }
 }
